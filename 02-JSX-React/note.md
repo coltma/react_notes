@@ -3,7 +3,7 @@
 
 1.JSX element & babel
 
-babel transpiles into React.createElement call
+babel transpiles JSX into React.createElement call
 
 ```javascript
 <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
