@@ -67,7 +67,7 @@
   /**
    * Why ternaries?
    * because an if statement doesn't work in there
-   * <div>{...}</div>.
+   * <div>{...interpolate our JavaScript syntax into here...}</div>.
    *
    * Using ternaries to conditionally render different
    * components is a really nice way to compose these
