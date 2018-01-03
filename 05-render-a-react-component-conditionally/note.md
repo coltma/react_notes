@@ -23,6 +23,7 @@
 
 2. Using `if` and raw JavaScript.
   ```javascript
+  // JSX is simply an abstraction on top of React.createElement.
   function Message({message}) {
     if (!message) {
         return React.createElement('div', null, 'No Message')
@@ -68,7 +69,8 @@
    * Why ternaries?
    * because an if statement doesn't work in there
    * <div>{...interpolate our JavaScript syntax into here...}</div>.
-   *
+   * Interpolation must have expression, so if is not
+   * allowed and you will see ternaries expressions.
    * Using ternaries to conditionally render different
    * components is a really nice way to compose these
    * components together.     
