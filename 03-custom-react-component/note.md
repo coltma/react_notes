@@ -7,7 +7,7 @@ To create reusable components
 
 ```javascript
 // Take function:
-const message = () => <div>{props.msg}</div>
+const message = (props) => <div>{props.msg}</div>
 
 const element = (
   //JSX compiles down to React.createElement call
@@ -24,7 +24,7 @@ const element = React.createElement('div', {
 ---
 2.Switch `React.createElement` with a quotes `<div>` to JSX `<div>`
 ```javascript
-const message = () => <div>{props.msg}</div>
+const message = (props) => <div>{props.msg}</div>
 const element = (
   <div>
     <message />  
