@@ -25,7 +25,7 @@ setInterval(tick, 1000)
 2. Change from `JSX` to a `template string` and update the entire DOM structure.
 ```JavaScript
 //Template String to be interpolated:
- `${time}`
+ `<div> "${time}" </div>`
 ```
 ```javascript
 function tick(){
@@ -33,8 +33,8 @@ function tick(){
     const element = `
         <div>
             It is
-            <input value=`${time}` />
-            <input value=`${time}` />
+            <input value="${time}" />
+            <input value="${time}" />
         </div>
     `
     rootElement.innerHTML = element //update the entire DOM structure
